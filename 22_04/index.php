@@ -3,11 +3,22 @@
     // A chave (ex: Home) é o nome do link
     // O valor é o conteúdo que será exibido na página
     $_MENU = [
-        'Home' => '<h1>Pagina inicial</h1>',
-        'Sobre' => '<h1>pagina sobre </h1>',
-        'Contato' => '<h1>pagina contato</h1>',
-        'experiências' => '<h1>pagina experiências</h1>',
-        'projetos' => '<h1>pagina projetos</h1>',
+        'Home' => '<h1> Origem do nome</h1>
+<h2>  título, Vinland Saga, seria uma associação com Vinlândia como descrito em duas sagas nórdicas. Vinland Saga é, entretanto, ambientado na região de Danelaw no início do século XI, e mostra os invasores dinamarqueses da Inglaterra comumente conhecidos como vikings.</h2>
+',
+        'Sobre' => '<h1> Sobre os mangás</h1>
+<h2> Vinland Saga é escrito e ilustrado por Makoto Yukimura. Os capítulos começaram a serem serializados Em dezembro de 2005, Quando o mangá mudou-se à revista mensal seinen Afternoon. Os dois primeiros volumes fora As reimpressões do mangá na Afternoon apresentaram um novo design e as capas foram redesenhadas.o total de páginas são todas mais ou menos a mesma, por volta de 215 páginas por volume.</h2>',
+        'contexto historico' => '<h1>contexto histórico real</h1><h2> Vinland Saga se passa na Europa do século XI, durante a era dos vikings. A história mistura fatos reais com ficção e mostra invasões vikings à Inglaterra, as disputas de poder entre dinamarqueses e ingleses, e a busca por Vinland, uma terra pacífica e fértil que alguns vikings acreditavam existir (inspirada na América do Norte, descoberta por Leif Erikson).</h2>
+',
+        'ilustracoes' => '<h1> os mangás</h1>
+<h2>   Vinland Saga é escrito e ilustrado por Makoto Yukimura. Os capítulos começaram a serem serializados Em dezembro de 2005, Quando o mangá mudou-se à revista mensal seinen Afternoon. Os dois primeiros volumes fora As reimpressões do mangá na Afternoon apresentaram um novo design e as capas foram redesenhadas.o total de páginas são todas mais ou menos a mesma, por volta de 215 páginas por volume.</h2>
+',
+        'licoes de vida' => '  <h1>lições de vida abordados</h1>
+<h2>Vingança não resolve nada, Traz apenas dor e vazio;
+
+A verdadeira força é evitar a violência,  Ser forte é escolher a paz;
+
+Liderar é ter propósito, Um bom líder pensa no bem dos outros.',
     ];
 ?>  
 
@@ -30,7 +41,7 @@
     <?php
         // Exibe o logo (imagem)
         echo "<div class='container'>";
-        echo '<a class="logo"><img src="imagem/images.png" alt="Logo"></a>';
+        echo '<a class="logo"><img src="imagem/logo_v10.png" alt="Logo"></a>';
         echo "<nav><ul>";
         // Percorre o array $_MENU para criar os links do menu
         foreach($_MENU as $key => $value){

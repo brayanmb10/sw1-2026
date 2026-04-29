@@ -14,7 +14,7 @@
 
 
 header{
-    background-color: #433ab8 ;
+    background-color: #65665f ;
     color: #b02e2e;
     padding: 15px 15px 15px 15px;
     width: 100%;
@@ -55,6 +55,6 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #341ba3;
+    color: #3d365e;
     text-decoration: none;    
 }
